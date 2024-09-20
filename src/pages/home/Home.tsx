@@ -13,7 +13,8 @@ import party from "../../assets/images/Party.png";
 import gym from "../../assets/images/gym.png";
 import formal from "../../assets/images/formal.png";
 import casual from "../../assets/images/Casual.png";
-import ReviewCard from "../../components/reviewCard";
+import ReviewCard from "../../components/reviewCard/reviewCard";
+
 
 
 type homeProps = {
@@ -148,7 +149,7 @@ export default function Home({ onLoadingComplete }: homeProps) {
         <div className="customer-review container">
           <h1>OUR HAPPY CUSTOMERS</h1>
           <div className="review">
-            <ReviewCard 
+            <ReviewCard
               name="Sarah M." 
               review={`"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”`}
             />

@@ -6,7 +6,8 @@ type propsCardType = {
     name: string
     review: string
 }
-export default function ReviewCard(props: propsCardType) {
+
+function ReviewCard(props: propsCardType) {
   return (
     <div className="review-card">
         <Rating name="read-only" value={5} readOnly />
@@ -20,3 +21,5 @@ export default function ReviewCard(props: propsCardType) {
     </div>
   )
 }
+
+export default ReviewCard;
