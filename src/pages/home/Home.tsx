@@ -13,7 +13,8 @@ import party from "../../assets/images/Party.png";
 import gym from "../../assets/images/gym.png";
 import formal from "../../assets/images/formal.png";
 import casual from "../../assets/images/Casual.png";
-import ReviewCard from "../../components/reviewCard/reviewCard";
+import ReviewCard from "../../components/reviewCard/ReviewCard";
+
 
 
 
