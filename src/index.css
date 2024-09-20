@@ -1,0 +1,84 @@
+
+@font-face {
+  font-family: 'integralcf';
+  src: url("src/assets/fonts/integralcf/Fontspring-DEMO-integralcf-regular.otf") format("opentype");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'integralcf';
+  src: url("src/assets/fonts/integralcf/Fontspring-DEMO-integralcf-medium.otf") format("truetype");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'integralcf';
+  src: url("src/assets/fonts/integralcf/Fontspring-DEMO-integralcf-bold.otf") format("truetype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'integralcf';
+  src: url("src/assets/fonts/integralcf/Fontspring-DEMO-integralcf-extrabold.otf") format("truetype");
+  font-weight: 800; /* ExtraBold */
+  font-style: normal;
+}
+
+/* Satochi font */
+
+@font-face {
+  font-family: 'Satochi';
+  src: url("src/assets/fonts/satochi/Fonts/OTF/Satochi-Regular.otf") format("opentype");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'integralcf';
+  src: url("src/assets/fonts/satochi/Fonts/OTF/Satochi-Medium.otf") format("truetype");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'integralcf';
+  src: url("src/assets/fonts/satochi/Fonts/OTF/Satochi-Bold.otf") format("truetype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-font: 'Satochi', sans-serif;
+  --second-font:'integralcf', sans-serif;
+  --numbers-font: "Lato", sans-serif;
+  font-family: var(--main-font);
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

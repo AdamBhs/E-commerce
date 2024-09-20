@@ -1,0 +1,87 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 295px;
+    height: 298px;
+    background-color: #F0EEED;
+    border-radius: 20px;
+}
+
+.card .img-container img {
+  width: 250px;
+  height: 260px;
+}
+
+.card .price {
+    text-align: left;
+    width: 290px;
+    font-family: var(--numbers-font);
+}
+
+.card .product-name {
+    margin-top: 16px;
+    width: 290px;
+    text-align: left;
+}
+
+.rating-data {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    gap: 12px;
+    width: 290px;
+    text-align: left;
+}
+
+.rating-data p {
+    margin-top: 4px;
+    font-size: 14px;
+    color: rgba(0,0,0, 0.5);
+}
+
+.rating-data p span {
+    color: black;
+}
+
+
+.rating {
+    width: max-content;
+}
+
+.rating:not(:checked) > input {
+  appearance: none;
+}
+
+.rating:not(:checked) > label {
+  float: right;
+  cursor: pointer;
+  font-size: 24px;
+  color: #666;
+}
+
+.rating:not(:checked) > label:before {
+  content: "★";
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+  color: #e58e09;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #ff9e0b;
+}
+
+.rating > input:checked ~ label {
+  color: #ffa723;
+}

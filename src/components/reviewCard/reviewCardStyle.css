@@ -1,0 +1,24 @@
+.review-card {
+    border: 1px solid rgba(0,0,0, 0.1);
+    border-radius: 20px;
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.review-card .user-review {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.review-card .user-review .check {
+    color: #01AB31;
+}
+
+
+.review-card p {
+    font-size: 16px;
+    color: rgba(0,0,0,0.6);
+}
